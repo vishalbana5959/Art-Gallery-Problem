@@ -1,0 +1,6 @@
+# Intentionally invalid: two boundary edges cross.
+4
+0 0
+6 6
+0 6
+6 0

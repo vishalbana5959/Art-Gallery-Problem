@@ -1,0 +1,20 @@
+CCTV PLACEMENT PLANNER
+Algorithm: Sweep line + monotone triangulation
+Solver complexity: O(n log n) time, O(n) extra space
+Vertices after cleanup: 7
+Monotone pieces: 2
+Triangles: 5
+Camera bound: 2
+Selected cameras: 2
+Solver time (excluding drawing and file output): 0.000277 seconds
+
+Camera V5 at (7, 9)
+Camera V2 at (2, 3)
+
+COVERAGE CERTIFICATE
+Triangle 1: vertices [2, 6, 4]; camera V2
+Triangle 2: vertices [2, 4, 3]; camera V2
+Triangle 3: vertices [7, 6, 2]; camera V2
+Triangle 4: vertices [1, 7, 2]; camera V2
+Triangle 5: vertices [6, 5, 4]; camera V5
+Every triangle has an incident camera. The exact minimum count is not claimed.

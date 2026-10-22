@@ -1,0 +1,9 @@
+# Original supplied 11-vertex room.
+7
+0 0
+2 3
+1 10
+5 7
+7 9
+10 5
+6 0

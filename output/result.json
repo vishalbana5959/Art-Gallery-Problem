@@ -1,0 +1,100 @@
+{
+  "points": [
+    [
+      6,
+      0
+    ],
+    [
+      10,
+      5
+    ],
+    [
+      7,
+      9
+    ],
+    [
+      5,
+      7
+    ],
+    [
+      1,
+      10
+    ],
+    [
+      2,
+      3
+    ],
+    [
+      0,
+      0
+    ]
+  ],
+  "vertex_ids": [
+    7,
+    6,
+    5,
+    4,
+    3,
+    2,
+    1
+  ],
+  "triangles": [
+    [
+      5,
+      1,
+      3
+    ],
+    [
+      5,
+      3,
+      4
+    ],
+    [
+      0,
+      1,
+      5
+    ],
+    [
+      6,
+      0,
+      5
+    ],
+    [
+      1,
+      2,
+      3
+    ]
+  ],
+  "colors": [
+    2,
+    1,
+    0,
+    2,
+    1,
+    0,
+    1
+  ],
+  "camera_indices": [
+    2,
+    5
+  ],
+  "triangle_owners": [
+    5,
+    5,
+    5,
+    5,
+    2
+  ],
+  "partition_diagonals": [
+    [
+      1,
+      3
+    ]
+  ],
+  "monotone_pieces": 2,
+  "input_vertices": 7,
+  "algorithm": "Sweep line + monotone triangulation",
+  "solver_time_complexity": "O(n log n)",
+  "solver_space_complexity": "O(n)",
+  "solver_seconds": 0.0002770000028249342
+}
